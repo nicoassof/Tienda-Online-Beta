@@ -424,6 +424,9 @@ body {
     }
 }
 @media screen and (max-width:991px) {
+    .menu a {
+    line-height: 36px !important;
+    }
     .badge-danger {
        position: static;
        padding: 0;
