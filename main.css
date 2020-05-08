@@ -424,9 +424,6 @@ body {
     }
 }
 @media screen and (max-width:991px) {
-    .menu a {
-    line-height: 36px !important;
-    }
     .badge-danger {
        position: static;
        padding: 0;
@@ -627,7 +624,7 @@ header {
     }
     .menu a {
         border-left: 2px solid #e3e9ef;
-        line-height: 56px;
+        line-height: 36px;
         width: 100%;
         display: flex;
         justify-content: center;
