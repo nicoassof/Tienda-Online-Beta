@@ -12,9 +12,6 @@ a:hover {
     text-decoration: none;
 }
 /*--------- Header -------------*/
-.icon-heart {
-    color: #fe696a;
-}
 header {
     background: #fff;
     padding: 10px 0;
@@ -168,6 +165,9 @@ header {
         border: 0;
         color: rgba(0, 0, 0, .8)
     }
+.icon-heart {
+    color: #fe696a;
+}
 .corazon:hover {
         border: 0 !important;
         color: #fe3638;
@@ -175,11 +175,12 @@ header {
     }
 .corazon:focus {
         box-shadow: none !important;
+        outline: 0;
     }
 .corazon:active {
         background: #f2f5f9 !important;
         border: 0 !important;
-        color: #fe3638 !important;
+        color: #fff !important;
     } 
 .card-subtitle {
         font-size: 12px;
